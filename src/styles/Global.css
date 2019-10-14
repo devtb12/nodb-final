@@ -48,10 +48,6 @@ main {
    * Correct the font size and margin on `h1` elements within `section` and
    * `article` contexts in Chrome, Firefox, and Safari.
    */
-h1 {
-	font-size: 2em;
-	margin: 0.67em 0;
-}
 
 /* Grouping content
      ========================================================================== */
@@ -1039,7 +1035,7 @@ tfoot th {
 }
 
 td {
-	border-bottom: 1px solid #dedede;
+	border-bottom: 0px solid #dedede;
 }
 
 th,
@@ -1083,7 +1079,7 @@ li {
 	-moz-box-shadow: inset 0px 1px 0px 0px #ffffff;
 	-webkit-box-shadow: inset 0px 1px 0px 0px #ffffff;
 	box-shadow: inset 0px 1px 0px 0px #ffffff;
-	background-color: #ededed;
+	background-color: #999999;
 	-webkit-border-top-left-radius: 6px;
 	-moz-border-radius-topleft: 6px;
 	border-top-left-radius: 6px;
@@ -1104,9 +1100,9 @@ li {
 	font-size: 15px;
 	font-weight: bold;
 	font-style: normal;
-	height: 20px;
-	line-height: 10px;
-	width: 85px;
+	height: 10px;
+	line-height: 0;
+	width: 25px;
 	text-decoration: none;
 	text-align: center;
 	text-shadow: 1px 1px 0px #ffffff;

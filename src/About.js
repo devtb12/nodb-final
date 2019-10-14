@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
 	return (
-		<footer>
+		<about>
 			<div className="aboutcontainer">
 				<div>
 					<ul>
@@ -21,7 +21,7 @@ const About = () => {
 					</ul>
 				</div>
 			</div>
-		</footer>
+		</about>
 	);
 };
 

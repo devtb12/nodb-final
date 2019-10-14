@@ -6,7 +6,7 @@ const Footer = () => {
 			<div className="footercontainer">
 				<div>
 					<ul>
-						<li>NAIVE, a SPACEX Company © 2019-2020</li>
+						<li>NAVIE, a SPACEX Company © 2019-2020</li>
 					</ul>
 				</div>
 			</div>

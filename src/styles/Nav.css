@@ -74,8 +74,12 @@ span {
 	transition: color 1.5s ease-in-out;
 }
 .item:hover span {
-	color: #ff0000;
+
+	background-color: rgb(241, 170, 78);
 	text-decoration: overline;
+	-webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
 }
 .menu:hover .spacer:before {
 	width: 100%;

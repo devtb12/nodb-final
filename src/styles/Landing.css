@@ -99,7 +99,7 @@ h1 {
 }
 .aboutcontainer > div {
 	width: 100%;
-	height: 220px;
+	height: 100%;
 	color: #fff;
 	font-weight: 300;
 	text-align: justify;
@@ -111,4 +111,73 @@ h1 {
 .youtube {
 	width: 100%;
 	height: 300px;
+}
+
+.waitcontainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	background-color: #fff;
+	margin-top: 0px;
+}
+.waitcontainer > div {
+	width: 100%;
+	height: 600px;
+	padding: 5px 5px 5px 5px;
+	line-height: 25px;
+	font-size: 12pt;
+	font-weight: 400;
+	color: #fff;
+	background-color: #333;
+	text-align: center;
+	/* padding: 0% 35% 0% 20%; */
+}
+
+.elonbg {
+	background-image: url("https://www.visualspiders.com/wp-content/uploads/2016/06/elon-musk.jpg");
+	background-size: cover;
+	width: 800px;
+	height: 450px;
+	margin: 20px;
+}
+
+.waitinglogo {
+	font-size: 2.5em;
+	margin: 0;
+	padding-left: 15px;
+	padding-top: 5px;
+	background-color: #333;
+	text-align: left;
+	color: #fff;
+	line-height: 50px;
+	padding-right: 200px;
+	padding-top: 100px;
+	font-style: italic;
+}
+
+.elonquote {
+	font-size: 2em;
+	margin: 0;
+	padding-left: 5px;
+	padding-top: 5px;
+	background-color: #333;
+	text-align: center;
+	color: #fff;
+	line-height: 50px;
+	padding-right: 200px;
+	padding-top: 100px;
+}
+
+.elonsignup {
+	font-size: 2em;
+	margin: 0;
+	padding-left: 5px;
+	padding-top: 5px;
+	background-color: #333;
+	text-align: center;
+	color: #fff;
+	line-height: 50px;
+	padding-right: 0px;
+	padding-top: 50px;
 }

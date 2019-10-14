@@ -3,9 +3,10 @@ import axios from 'axios';
 import DeleteMessage from './DeleteMessage';
 import Footer from '../Footer';
 
+import NavBar from '../NavBar';
 import MainContent from '../MainContent';
 import MidContent from '../MidContent';
-import NavBar from '../NavBar';
+import WaitingListText from '../WaitingListText';
 
 class HistoryMessage extends React.Component {
 	constructor() {
@@ -53,6 +54,13 @@ class HistoryMessage extends React.Component {
 						<section>
 							<MidContent />
 						</section>
+
+						<container>
+							<WaitingListText />
+						</container>
+
+						<div className="waitinglogo">MARS STANDBY LIST ↓</div>
+
 						<footer>{hisTrack}</footer>
 						<div>
 							<Footer />

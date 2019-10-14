@@ -24,13 +24,13 @@ class NavBar extends React.Component {
 							<div className="label">NɅVI Ξ</div>
 							<div className="spacer" />
 							<div className="item">
-								<span onClick={() => this.setState({ visitorPage: 'add' })}>REG.ISTER</span>
+								<span onClick={() => this.setState({ visitorPage: 'add' })}>SIGN.UP</span>
 							</div>
 							<div className="item">
 								<span onClick={() => this.setState({ visitorPage: 'view' })}>WAIT.LST</span>
 							</div>
 							<div className="item">
-								<span onClick={() => this.setState({ visitorPage: 'about' })}>TH.MISSION</span>
+								<span onClick={() => this.setState({ visitorPage: 'about' })}>MARS: TH.MISSION</span>
 							</div>
 						</div>
 						{this.state.visitorPage === 'add' ? (
