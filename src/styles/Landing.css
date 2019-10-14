@@ -1,0 +1,114 @@
+.grandparent {
+	width: 100%;
+	height: 100%;
+	display: flexbox;
+	justify-content: center;
+	align-items: center;
+	font-family: "Brandon Grotesque", brandon-grotesque, Helvetica, sans-serif;
+}
+
+h1 {
+	font-size: 95pt;
+	color: #fff;
+}
+
+.toplogo {
+	height: 400px;
+	background-image: url("https://media.giphy.com/media/Rh5sd5crBURbvoy3A4/giphy.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.highlightme {
+	background-color: #fff;
+}
+
+.maincontainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	background-color: #fff;
+}
+.maincontainer > div {
+	width: 100%;
+	height: 300px;
+	border: 1px rgb(47, 47, 47) solid;
+	padding: 5px 5px 5px 5px;
+	line-height: 25px;
+	font-size: 12pt;
+	font-weight: 400;
+	color: #fff;
+	background-color: #333;
+	/* padding: 0% 35% 0% 20%; */
+}
+
+.mainbg {
+	background-image: url("https://2pobaduekzw9jt9a-zippykid.netdna-ssl.com/wp-content/uploads/2017/01/elon-musk.jpg");
+	background-size: cover;
+}
+
+.mainbg2 {
+	background-image: url("https://pbs.twimg.com/media/Do98h4EVAAInhWZ.jpg");
+	background-size: cover;
+}
+
+.mainbg3 {
+	background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/71/SpaceX_CRS-1_launch_cropped.jpg");
+	background-size: cover;
+}
+
+.midcontainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	background-color: #333;
+}
+.midcontainer > div {
+	width: 100%;
+	height: 300px;
+
+	padding-bottom: 305px;
+	padding-top: 15px;
+}
+
+.footercontainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	background-color: #333;
+}
+.footercontainer > div {
+	width: 100%;
+	height: 23px;
+	color: #fff;
+	font-weight: 400;
+	text-align: right;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.aboutcontainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	background-color: #333;
+}
+.aboutcontainer > div {
+	width: 100%;
+	height: 220px;
+	color: #fff;
+	font-weight: 300;
+	text-align: justify;
+	font-size: 21px;
+	padding: 15px;
+	font-style: italic;
+}
+
+.youtube {
+	width: 100%;
+	height: 300px;
+}

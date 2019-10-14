@@ -1,26 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import NavBar from './NavBar';
+// import MainContent from './MainContent';
+// import MidContent from './MidContent';
+import HistoryMessage from './components/HistoryMessage';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+//CSS
+import './styles/Global.css';
+import './styles/Landing.css';
+import './styles/Inputfield.css';
+import './styles/Nav.css';
+import './styles/DeleteMessage.css';
+
+const App = () => {
+	const [ viewPage, setViewPage ] = useState('Landing');
+
+	return (
+		<div>
+			<NavBar setViewPage={setViewPage} />
+
+			{viewPage === 'Landing' ? <HistoryMessage /> : '404 - Page Not Found'}
+		</div>
+	);
+};
 
 export default App;
