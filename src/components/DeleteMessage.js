@@ -50,21 +50,6 @@ class DeleteMessage extends React.Component {
 										</tr>
 									</thead>
 								</table>
-
-								{/* First: {this.props.val.first}, 
-								Last: {this.props.val.last}, 
-								Email: {this.props.val.email},
-								Contact:{this.props.val.contact},
-							</span>
-						</li>
-						<li>
-							<span>Comment: {this.props.val.comment}</span>
-						</li>
-						<li>
-							<span>
-								<button className="delbutton" onClick={this.delMessage}>
-									delete
-								</button> */}
 							</span>
 						</li>
 					</ul>

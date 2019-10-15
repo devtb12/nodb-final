@@ -1,8 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Dosis');
 
 .Input {
-    position: relative;
-
+	position: relative;
 }
 
 .Input-text {
@@ -16,13 +15,13 @@
 	line-height: var(--inputLineHeight);
 	border: none;
 	border-radius: 0.4rem;
-    transition: box-shadow var(--transitionDuration);
-    color: white;
+	transition: box-shadow var(--transitionDuration);
+	color: white;
 }
 
 .Input-text::placeholder {
-    color: #b0bec5;
-    padding-left: 10px;
+	color: #b0bec5;
+	padding-left: 10px;
 }
 
 .Input-text:focus {

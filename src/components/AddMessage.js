@@ -48,31 +48,55 @@ class AddMessage extends React.Component {
 			});
 
 		//RETURN - RENDER
-
-
-
-
-
-		
 	};
 	render() {
 		return (
 			<div>
 				<ul>
 					<li>
-						<input type="text" id="input" class="Input-text" placeholder="First Name" onChange={this.handleFirstChange} />
+						<input
+							type="text"
+							id="input"
+							class="Input-text"
+							placeholder="First Name"
+							onChange={this.handleFirstChange}
+						/>
 					</li>
 					<li>
-						<input type="text" id="input" class="Input-text"  placeholder="Last Name" onChange={this.handleLastChange} />
+						<input
+							type="text"
+							id="input"
+							class="Input-text"
+							placeholder="Last Name"
+							onChange={this.handleLastChange}
+						/>
 					</li>
 					<li>
-						<input type="text" id="input" class="Input-text"  placeholder="Email" onChange={this.handleEmailChange} />
+						<input
+							type="text"
+							id="input"
+							class="Input-text"
+							placeholder="Email"
+							onChange={this.handleEmailChange}
+						/>
 					</li>
 					<li>
-						<input type="text" id="input" class="Input-text"  placeholder="Contact #" onChange={this.handleContactChange} />
+						<input
+							type="text"
+							id="input"
+							class="Input-text"
+							placeholder="Contact #"
+							onChange={this.handleContactChange}
+						/>
 					</li>
 					<li>
-						<input type="text" id="input" class="Input-text"  placeholder="Comments" onChange={this.handleCommentChange} />
+						<input
+							type="text"
+							id="input"
+							class="Input-text"
+							placeholder="Comments"
+							onChange={this.handleCommentChange}
+						/>
 					</li>
 					<li>
 						<button className="regbutton" onClick={this.handleClick}>

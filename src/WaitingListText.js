@@ -17,19 +17,16 @@ const WaitingListText = () => {
 							"The first step is to establish that something is possible; then probability will occur." -
 							Elon Musk
 						</div>
-
-
 					</li>
-                    <div>
-							<ul>
-							
-								<li>
-                                    <div className="elonsignup">
+					<div>
+						<ul>
+							<li>
+								<div className="elonsignup">
 									<AddMessage />
-                                    </div>
-								</li>
-							</ul>
-						</div>
+								</div>
+							</li>
+						</ul>
+					</div>
 				</ul>
 			</div>
 		</div>
